@@ -1,4 +1,33 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-id="tomandjerry.pussgets.theboot" tvg-name="Tom and Jerry - Puss Gets the Boot" group-title="Cartoons",Tom and Jerry - Puss Gets the Boot
+###############
+# 🎬 MOVIES / VOD
+###############
+
+#EXTINF:-1 tvg-id="tomandjerry.pussgets.theboot" tvg-type="movie" group-title="Movies | Cartoons",Tom and Jerry - Puss Gets the Boot
 https://ww.supercartoons.net/tom-and-jerry/puss-gets-the-boot.mp4
+
+#EXTINF:-1 tvg-type="movie" group-title="Movies | Disney",Big Buck Bunny
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4
+
+#EXTINF:-1 tvg-type="movie" group-title="Movies | Animation",Sintel
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4
+
+
+###############
+# 📺 LIVE TV
+###############
+
+#EXTINF:-1 tvg-id="news1" group-title="Live TV | News",Global News
+https://example.com/live/news.m3u8
+
+#EXTINF:-1 tvg-id="sports1" group-title="Live TV | Sports",Sports Channel
+https://example.com/live/sports.m3u8
+
+
+###############
+# 🎥 SERIES (optional)
+###############
+
+#EXTINF:-1 tvg-type="series" group-title="Series | Cartoons",Tom & Jerry Episodes
+https://example.com/series/tomjerry/episode1.m3u8
